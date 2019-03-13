@@ -61,9 +61,28 @@ According to this [article from medium](https://medium.com/@mindfiresolutions.us
 Chrome has an extension which allows you to disable JavaScript among others. <br>
 [Web Developer Extension](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm)
 
-#### Lunchroom de Walvis
-#### Kanovereniging Argonauten
+### Websites
+Websites from around my area. 
+
+#### Lunchroom de Walvis [Site](http://www.lunchroomdewalvis.nl/)
+Carousel doesn't work, it's completely hidden when JavaScript is disabled. <br>
+**Fix:** You can just display the carousel by default, but you can't go through them with a click. Just displaying them with CSS.
+
+Search button won't expand the search input. <br>
+**Fix:** Use the checkbox-label hack (CSS)
+
+#### Bij-ernst [Site](http://www.bij-ernst.nl/)
+The page is filled with scrolling transitions that are hidden by default. With JavaScript disabled they are hidden. <br>
+**Fix:** Display them by default but hide them on page load with JavaScript. This way they will always be visible even without JavaScript. They are only hidden when JavaScript is enabled. 
+
+The main menu is hidden without JavaScript. <br>
+**Fix:** Also hide thme with JavaScript, or make the menu with pure CSS.
+
 #### Huisartsenpraktijk Walvis
+Search button doesn't expand the search input. <br>
+**Fix:** Checkbox hack or hide the input with JavaScript.
+
+---
 
 ## LocalStorage doet het niet
 ### What problems can they cause?
@@ -74,10 +93,8 @@ I think you probably also can't add thins to a list without being logged in.
 ### How can you test this? 
 Go to _chrome Settings > advanced > content settings > cookies_
 
-#### Lunchroom de Walvis
-#### Kanovereniging Argonauten
-#### Huisartsenpraktijk Walvis
-
+### Websites
+The websites I looked at for the JavaScript feature don't have any problems without localstorage. 
 
 ## Sources
 - https://www.smashingmagazine.com/2018/05/using-the-web-with-javascript-turned-off/
