@@ -20,3 +20,12 @@ Gebruik onderstaande artikelen om je code te optimaliseren en om je voor te bere
   - een beschrijving van alle features die je hebt getest
   - een beschrijving van de Device lab test en screenreader test.
   - beschrijf hoe je de problemen hebt opgelost, of hoe je dit zou oplossen (met todo’s) als je genoeg tijd en budget zou hebben
+
+## Tested features
+I tested almost all the features except the no JavaScript, because it's a client side webapplication so nothing will work.
+
+#### 1 Turn of images
+When turning of the images, the app won't render the thumbnails from the results. This is the only "problem". Luckily there's a title so there's no need to fix it.
+
+#### 2 Turn of custom fonts
+When turning of custom fonts, FontAwesome won't load and Slackey won't load. There are no real issues because
